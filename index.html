@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
         <nav class="menu">
             <h1>Mi Web</h1>
-            <ul>
+            <ul class="list" >
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Servicios</a></li>
                 <li><a href="">Nosotros</a></li>
@@ -19,25 +20,30 @@
         </nav>
     </header>
 
-    <main>
-        <section class="hero" >
-            <img src="img/pexels-hatice-baran-153179658-10923809.jpg" alt="">
-            <h2>Bienvenido a Nuetra Página</h2>
-        </section>
-        <section>
+    <div class="hero">
+        <h2>Bienvenido a Nuetra Página</h2>
+        <img src="img/auto.jpg" alt="">
+    </div>
+
+    <main class="flex" >
+        <section class="about" >
             <h3>Sobre Nosotros</h3>
             <p>Somos una empresa enfocada en el desarrollon web moderno, accesible y funcional.</p>
         </section>
-        <section>
+        <section class="service" >
             <h3>Servicios</h3>
             <p>Ofrecemos diseño full stack, asesorías y optimización SEO.</p>
         </section>
-        <section>
+        <section class="contact" >
             <h3>Contacto</h3>
-            <p>Escribinos a contacto@miweb.com o encontranos en nuestras redes sociales.</p>
-        </section>
-
+            <p>Escribinos a contacto@miweb.com o encontranos en nuestras redes sociales.
+            <p>
+        </section>   
     </main>
+
+    <footer>
+        <p>&copy 2025 Mi Web. Todos los derechos reservados</p>
+    </footer>
     
 </body>
 </html>
