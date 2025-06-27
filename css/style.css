@@ -8,7 +8,7 @@ body{
 }
 
 .menu{
-    background-color: blue;
+    background-color:#22398A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,49 +34,68 @@ body{
     color: white;
     text-decoration: none;
 }
+.hero{
 
-div .hero {
-
-    background-image: url(../img/auto.jpg) center/cover no-repeat ;
-    height: 400px;
+    background-image: url(../img/auto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.hero h2{
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color: white;
+    width: 260px;
+    height: 35px;
+    padding: 14px 0px 1px 21px;
+    border-radius: 10px;
+
+
 }
 
 .flex{
-    background-color: beige;
+    background-color: #F8FAFB;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
-    /* width: 500px; */
-    height: 500px;
+    height: 450px;
+    
+    
        
 }
-.about{
-    background-color: chartreuse;
+
+.flex section{
+    background-color: white;
     width: 700px;
-    padding: 20px;
+    padding: 25px;
+    box-shadow: 7px 7px rgba(0,0,0,0.02);
+    border-radius: 7px;
+}
+
+.flex h3{
+    color:#22398A;
+    margin-bottom: 20px;
+}
+
+.flex p{
+    font-size: 12px
+}
+
+.footer{
+    background-color:#22398A;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
     
 }
-
-.service{
-    background-color: blue;
-    width: 700px;
-    padding: 20px;
-
-}
-
-.contact{
-    background-color: blueviolet;
-    width: 700px;
-    padding: 20px;
-}
-
-div h3{
-    margin-bottom: 10px;
-
-}
-
 
 
 
